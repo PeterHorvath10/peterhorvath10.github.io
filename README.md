@@ -33,33 +33,6 @@ permalink: /
   </div>
 </div>
 
-## Research
-
-My work connects physical measurement, machine learning, and low-level systems. I investigate how electromagnetic emissions and injected faults can expose — or alter — computations running on modern hardware.
-
-<div class="focus-grid">
-  <article class="focus-card">
-    <span class="card-number">01</span>
-    <h3>Near-field GPU analysis</h3>
-    <p>Reverse-engineering CNN architectures and parameters on NVIDIA Jetson platforms from electromagnetic measurements near the GPU die and its decoupling capacitors.</p>
-  </article>
-  <article class="focus-card">
-    <span class="card-number">02</span>
-    <h3>Far-field GPU emissions</h3>
-    <p>Studying whether LLM weights and architectural information can be recovered from desktop GPU radiation at a distance using a Vivaldi antenna and software-defined radio.</p>
-  </article>
-  <article class="focus-card">
-    <span class="card-number">03</span>
-    <h3>Electromagnetic fault injection</h3>
-    <p>Using EMFI to manipulate neural-network execution, with the goal of inducing controlled misclassification or model misalignment.</p>
-  </article>
-  <article class="focus-card">
-    <span class="card-number">04</span>
-    <h3>Input recovery</h3>
-    <p>Applying profiled electromagnetic side-channel analysis and deep learning to recover input classes from DNNs deployed on FPGAs and microcontrollers.</p>
-  </article>
-</div>
-
 ## Selected publications
 
 <article class="publication">
@@ -167,54 +140,6 @@ My work connects physical measurement, machine learning, and low-level systems. 
     </ul>
   </div>
 </div>
-
-## Education
-
-<div class="education-grid">
-  <article>
-    <span class="education-date">2019 — 2022</span>
-    <h3>M.Sc. Computer Science</h3>
-    <p>Radboud University, Netherlands</p>
-  </article>
-  <article>
-    <span class="education-date">2016 — 2019</span>
-    <h3>B.Sc. Computer Science</h3>
-    <p>Eötvös Loránd University, Hungary</p>
-  </article>
-</div>
-
-## Technical toolkit
-
-<div class="skills-grid">
-  <div>
-    <h3>Programming</h3>
-    <p>C/C++, CUDA, Python</p>
-  </div>
-  <div>
-    <h3>Platforms</h3>
-    <p>NVIDIA Jetson, AMD Zynq UltraScale+, ARM Cortex-M</p>
-  </div>
-  <div>
-    <h3>Machine learning</h3>
-    <p>PyTorch, TensorRT, Xilinx Vitis AI</p>
-  </div>
-  <div>
-    <h3>Instrumentation</h3>
-    <p>LeCroy and Siglent oscilloscopes, Ettus and HackRF SDRs, ChipWhisperer Husky, Riscure XYZ stage and VC Glitcher</p>
-  </div>
-  <div>
-    <h3>Debugging &amp; testing</h3>
-    <p>GDB, CUDA-GDB, sanitizers, AFL++</p>
-  </div>
-  <div>
-    <h3>Hardware description</h3>
-    <p>Basic Verilog</p>
-  </div>
-</div>
-
-### Professional training
-
-Side-Channel Analysis and Fault Injection at [Riscure](https://www.riscure.com/security-tools/inspector-open-training/) (2024) · Security Assessment of BLE Devices at [Hardwear.io](https://hardwear.io/security-assessment-of-bluetooth-low-energy-devices/) (2024) · Building Cryptographic ASICs and Side-Channel Attacks on ECDSA at [Crypto Summer School](https://summerschool-croatia.cs.ru.nl/2023/tutorials.html) (2023)
 
 ## Contact
 
