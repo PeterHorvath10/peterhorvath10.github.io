@@ -1,0 +1,9 @@
+# Private source files used to prepare the public site
+/Peter_Horvath_CV.pdf
+/photo.jpg
+
+# Local Jekyll output and caches
+/_site/
+/.jekyll-cache/
+/.sass-cache/
+.jekyll-metadata

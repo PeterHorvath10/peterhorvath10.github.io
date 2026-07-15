@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="PH">
+  <rect width="64" height="64" rx="14" fill="#112031"/>
+  <circle cx="51" cy="13" r="10" fill="#198375"/>
+  <text x="32" y="42" fill="#ffffff" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="middle">PH</text>
+</svg>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <meta name="theme-color" content="#112031">
+
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page.title | default: site.title }}">
+    <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ '/assets/images/peter-horvath.jpg' | absolute_url }}">
+    <meta property="og:image:alt" content="Portrait of Peter Horvath">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Peter Horvath",
+        "url": "{{ site.url }}",
+        "image": "{{ '/assets/images/peter-horvath.jpg' | absolute_url }}",
+        "jobTitle": "Hardware Security Researcher",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "Radboud University"
+        },
+        "sameAs": [
+          "https://github.com/PeterHorvath10",
+          "https://www.linkedin.com/in/PeterHorvath10/",
+          "https://scholar.google.com/citations?user=n0NAh4gAAAAJ&hl=en"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="site-shell">
+      <aside class="sidebar" aria-label="Profile and site navigation">
+        <div class="sidebar-inner">
+          <a class="portrait-link" href="{{ '/' | relative_url }}" aria-label="Peter Horvath, home">
+            <img class="portrait" src="{{ '/assets/images/peter-horvath.jpg' | relative_url }}" alt="Portrait of Peter Horvath" width="600" height="657">
+          </a>
+
+          <p class="sidebar-kicker">Hardware security</p>
+          <a class="site-name" href="{{ '/' | relative_url }}">Peter Horvath</a>
+          <p class="site-role">PhD candidate at<br> Radboud University</p>
+
+          <nav class="site-nav" aria-label="Main navigation">
+            <a href="#research">Research</a>
+            <a href="#selected-publications">Publications</a>
+            <a href="#experience">Experience</a>
+            <a href="#teaching-and-presentations">Teaching &amp; talks</a>
+            <a href="#technical-toolkit">Toolkit</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <nav class="profile-links" aria-label="External profiles">
+            <a href="mailto:peter.horvath@ru.nl">Email</a>
+            <a href="https://www.linkedin.com/in/PeterHorvath10/" rel="me">LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=n0NAh4gAAAAJ&amp;hl=en">Scholar</a>
+            <a href="https://github.com/PeterHorvath10" rel="me">GitHub</a>
+          </nav>
+
+          <p class="photo-credit">Portrait by Geert van de Ven</p>
+        </div>
+      </aside>
+
+      <main id="main-content" class="page-content">
+        {{ content }}
+
+        <footer class="site-footer">
+          <p>&copy; {{ site.time | date: '%Y' }} Peter Horvath</p>
+          <p>Content maintained in <a href="https://github.com/PeterHorvath10/peterhorvath10.github.io/blob/main/README.md">README.md</a></p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+title: Peter Horvath
+description: Hardware security researcher working on electromagnetic side channels, GPU security, neural-network extraction, and fault injection.
+url: "https://peterhorvath10.github.io"
+baseurl: ""
+lang: en
+timezone: Europe/Amsterdam
+
+author:
+  name: Peter Horvath
+  email: peter.horvath@ru.nl
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+permalink: pretty
+
+exclude:
+  - Peter_Horvath_CV.pdf
+  - photo.jpg
+  - Gemfile
+  - Gemfile.lock
