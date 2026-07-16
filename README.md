@@ -11,7 +11,7 @@ permalink: /
 
 <p class="hero-role">Hardware Security Researcher &amp; PhD Candidate at Radboud University</p>
 
-<p class="lede">My research interests are physical side channel attacks and fault injection attacks. During my PhD, I study mainly attacks against machine learning models executing on GPUs</p>
+<p class="lede">My research interests are physical side channel attacks and fault injection attacks. During my PhD, I study mainly attacks against machine learning models executing on GPUs.</p>
 
 ## Selected publications
 
