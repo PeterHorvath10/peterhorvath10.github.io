@@ -472,24 +472,6 @@ button:focus-visible {
   font-weight: 800;
 }
 
-.timeline-item div:last-child > p:last-child {
-  margin: 0;
-  color: var(--ink-soft);
-  font-size: 0.9rem;
-}
-
-.two-column {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 48px;
-}
-
-.two-column h3 {
-  margin: 0 0 18px;
-  font-family: var(--serif);
-  font-size: 1.25rem;
-}
-
 .clean-list {
   margin: 0;
   padding: 0;
@@ -515,12 +497,6 @@ button:focus-visible {
   color: var(--ink-soft);
   font-size: 0.86rem;
   line-height: 1.55;
-}
-
-.compact-list li {
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--line);
 }
 
 .contact-card {
@@ -709,10 +685,6 @@ button:focus-visible {
 
   .page-content > h2 {
     margin-top: 64px;
-  }
-
-  .two-column {
-    grid-template-columns: 1fr;
   }
 
   .publication {

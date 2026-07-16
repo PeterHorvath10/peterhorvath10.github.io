@@ -88,7 +88,6 @@ permalink: /
     <div>
       <h3>PhD Candidate in Hardware Security</h3>
       <p class="timeline-place">Radboud University</p>
-      <p>Researching physical attacks on machine-learning systems across GPUs, FPGAs, and microcontrollers.</p>
     </div>
   </article>
   <article class="timeline-item">
@@ -96,7 +95,6 @@ permalink: /
     <div>
       <h3>Hardware Security Intern</h3>
       <p class="timeline-place">NVIDIA</p>
-      <p>Evaluated the resilience of a masked AES implementation against non-profiled, deep-learning-based side-channel attacks.</p>
     </div>
   </article>
   <article class="timeline-item">
@@ -104,7 +102,6 @@ permalink: /
     <div>
       <h3>Data Scientist</h3>
       <p class="timeline-place">Randstad Groep Nederland</p>
-      <p>Built an LSTM-based revenue-forecasting solution that matched or outperformed human-generated forecasts.</p>
     </div>
   </article>
   <article class="timeline-item">
@@ -116,33 +113,18 @@ permalink: /
   </article>
 </div>
 
-## Teaching and presentations
+## Teaching
 
-<div class="two-column">
-  <div>
-    <h3>Teaching</h3>
-    <ul class="clean-list">
-      <li>
-        <strong>Training instructor</strong>
-        <span><a href="https://hardwear.io/ai-assisted-side-channel-attacks-on-real-world-crypto-implementations/">AI-assisted side-channel attacks on real-world cryptographic implementations</a>, Hardwear.io Netherlands, 2024.</span>
-      </li>
-      <li>
-        <strong>Teaching assistant</strong>
-        <span><a href="https://www.ru.nl/en/education/bachelors/computing-science/study-programme/study-programme-bachelors-computing-science-year-2">Introduction to Cryptography</a>, Radboud University, Sep 2022 — present.</span>
-      </li>
-    </ul>
-  </div>
-  <div>
-    <h3>Selected presentations</h3>
-    <ul class="clean-list compact-list">
-      <li><strong>IEEE SaTML 2026</strong><span>Kraken</span></li>
-      <li><strong>USENIX Security 2025</strong><span>BarraCUDA</span></li>
-      <li><strong>Hardwear.io USA 2024</strong><span>BarraCUDA</span></li>
-      <li><strong>USENIX Security 2024</strong><span>Neural-network extraction SoK</span></li>
-      <li><strong>ACNS AIHWS 2024</strong><span>CNN architecture extraction</span></li>
-    </ul>
-  </div>
-</div>
+<ul class="clean-list">
+  <li>
+    <strong>Training instructor</strong>
+    <span><a href="https://hardwear.io/ai-assisted-side-channel-attacks-on-real-world-crypto-implementations/">AI-assisted side-channel attacks on real-world cryptographic implementations</a>, Hardwear.io Netherlands, 2024.</span>
+  </li>
+  <li>
+    <strong>Teaching assistant</strong>
+    <span><a href="https://www.ru.nl/en/education/bachelors/computing-science/study-programme/study-programme-bachelors-computing-science-year-2">Introduction to Cryptography</a>, Radboud University, Sep 2022 — present.</span>
+  </li>
+</ul>
 
 ## Contact
 
