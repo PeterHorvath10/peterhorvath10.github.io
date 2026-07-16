@@ -403,6 +403,12 @@ button:focus-visible {
   font-weight: 800;
 }
 
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+
 .section-note {
   padding: 14px 18px;
   background: var(--accent-pale);
