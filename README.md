@@ -23,7 +23,7 @@ permalink: /
     <p><strong>P. Horvath</strong>, I. Shumailov, L. Chmielewski, L. Batina, and Y. Yarom.</p>
     <span class="publication-links">
       <a class="text-link" href="https://arxiv.org/abs/2603.02891">Read the paper <span aria-hidden="true">↗</span></a>
-      <a class="text-link" href="https://drive.google.com/drive/folders/1YSM8MdovuREx1ZW1tff9BhqAyFxfSe-k?usp=sharing">Datasets <span aria-hidden="true">↗</span></a>
+      <a class="text-link" href="https://drive.google.com/drive/folders/1yAmC9pYBMsGuz-WG13VPI828H49Fflaz?usp=drive_link">Datasets <span aria-hidden="true">↗</span></a>
     </span>
   </div>
 </article>
