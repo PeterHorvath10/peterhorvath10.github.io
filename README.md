@@ -13,26 +13,6 @@ permalink: /
 
 <p class="lede">I study what computing systems reveal through the physical world. My research explores attacks on machine-learning systems, with a focus on electromagnetic side channels, GPU security, model extraction, and fault injection.</p>
 
-<p class="hero-actions">
-  <a class="button button-primary" href="mailto:peter.horvath@ru.nl">Get in touch</a>
-  <a class="button button-secondary" href="https://scholar.google.com/citations?user=n0NAh4gAAAAJ&amp;hl=en">Google Scholar</a>
-</p>
-
-<div class="at-a-glance" role="group" aria-label="At a glance">
-  <div>
-    <span class="glance-label">Currently</span>
-    <strong>Radboud University</strong>
-  </div>
-  <div>
-    <span class="glance-label">Field</span>
-    <strong>Hardware Security</strong>
-  </div>
-  <div>
-    <span class="glance-label">Core systems</span>
-    <strong>GPUs · FPGAs · MCUs</strong>
-  </div>
-</div>
-
 ## Selected publications
 
 <article class="publication">
